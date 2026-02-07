@@ -13,23 +13,29 @@
 
     <header class = "header"> 
 
-        <div class = "menu container">
-            <a href = "index.html" class = "logo">Community Orion Lab</a>
-            <input type = "checkbox" id = "menu"/>
-            <label for = "menu">
-                <img src="ASSETS/logo.png" class="menu-icon">
-            </label>
-            
-            <nav class = "navbar">
-                <ul>
-                    <li> <a href = "index.html"> Home </a> </li>
-                    <li> <a href = "conocenos.html"> Get to know us </a> </li>
-                    <li> <a href = "contactos.html"> Contact </a> </li>
-                    <li> <a href = "archivos.html"> Archive </a> </li>
-                </ul>
-            </nav>
-        </div>
-
+    <div class="menu container">
+        <a href="index.html" class="logo">Community Orion Lab</a>
+        
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="conocenos.html">Get to know us</a></li>
+                <li><a href="contactos.html">Contact</a></li>
+                <li><a href="archivos.html">Archive</a></li>
+            </ul>
+        </nav>
+        
+        <!-- Overlay para cerrar menú -->
+        <label for="menu-toggle" class="navbar-overlay"></label>
+    </div>
+    
                 <div class = "header-content-mini container">
             <h1> Explorers </h1>
             <p>
